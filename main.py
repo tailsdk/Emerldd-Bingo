@@ -48,7 +48,7 @@ def data(style):
         s5=[]
     #load in hero bingo squares and others
     if style == "h":
-        stages = ['s1', 's1', 's1', 'd1', 's2', 's2', 's3', 's3', 's4', 's5']
+        stages = ['s1', 's1', 's1', 's1', 's2', 's2', 's3', 's3', 's4', 's5']
         f = open("hero.txt", "r")
         bingo = f.read()
         story = bingo.split(",")
